@@ -1,12 +1,12 @@
 [Unit]
-Description=NFC Jukebox
+Description=RFID Jukebox
 After=
 StartLimitIntervalSec=5
 [Service]
 Type=simple
 Restart=always
 RestartSec=5
-User=pi
+User=root
 ExecStart=/usr/bin/python3 /home/pi/rfid_jukebox/run_service.py
 
 [Install]
