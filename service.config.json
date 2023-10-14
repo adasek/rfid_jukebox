@@ -1,0 +1,7 @@
+{
+  "audioDevice": "default:CARD=USB",
+  "soundVolumePercent": 100,
+  "tracks": {
+    "0001111111": "o_carolans_draught.mp3"
+  }
+}
