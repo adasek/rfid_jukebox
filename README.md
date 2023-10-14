@@ -19,9 +19,13 @@ sudo systemctl disable --now getty@tty0
 ```
 
 ### Copy this to a fresh Raspberry
+From this repo to a ssh-enabled Raspberry.
 ```bash
-rsync -r . pi@192.168.1.165:/home/pi/ 
+rsync -r . pi@192.168.1.165:/home/pi/rfid_jukebox
 ```
+Alternatively
+  * checkout the repo on the raspberry
+  * or copy this to the /home/pi/rfid_jukebox folder on the sd card
 
 ### Set as a service (autostart)
 In the Raspberry PI:
